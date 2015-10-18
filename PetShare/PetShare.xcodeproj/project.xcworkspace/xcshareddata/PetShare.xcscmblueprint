@@ -1,0 +1,25 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "5e0702d2-3db1-4dba-672d-ce57b7db7bff",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+    "5e0702d2-3db1-4dba-672d-ce57b7db7bff" : {
+
+    }
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "5e0702d2-3db1-4dba-672d-ce57b7db7bff" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "81FB72FD-51E5-4E8D-A893-EC63453A6F69",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "5e0702d2-3db1-4dba-672d-ce57b7db7bff" : "PatShare\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "PetShare",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "trunk\/PetShare\/PetShare.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/haifangzhu\/PatShare",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Subversion",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "5e0702d2-3db1-4dba-672d-ce57b7db7bff"
+    }
+  ]
+}
