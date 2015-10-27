@@ -6,3 +6,7 @@
 //  Copyright © 2015年 HaiFangZhu. All rights reserved.
 //
 
+
+
+//  bmob APPID
+#define kBmobApplicationID    @"d66db80976c4d0efab95daa5381398d3"
