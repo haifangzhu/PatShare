@@ -15,6 +15,19 @@
 		153F3C141BD3EDA700C86F1A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 153F3C121BD3EDA700C86F1A /* Main.storyboard */; };
 		153F3C161BD3EDA700C86F1A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 153F3C151BD3EDA700C86F1A /* Assets.xcassets */; };
 		153F3C191BD3EDA700C86F1A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 153F3C171BD3EDA700C86F1A /* LaunchScreen.storyboard */; };
+		B6DEB1B41BDFAFEE00375DF5 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B6DEB1B31BDFAFEE00375DF5 /* CoreLocation.framework */; };
+		B6DEB1B61BDFB00700375DF5 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B6DEB1B51BDFB00700375DF5 /* Security.framework */; };
+		B6DEB1B81BDFB01500375DF5 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B6DEB1B71BDFB01500375DF5 /* CoreGraphics.framework */; };
+		B6DEB1BA1BDFB0C100375DF5 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B6DEB1B91BDFB0C100375DF5 /* MobileCoreServices.framework */; };
+		B6DEB1BC1BDFB0D000375DF5 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B6DEB1BB1BDFB0D000375DF5 /* CFNetwork.framework */; };
+		B6DEB1BE1BDFB0E200375DF5 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B6DEB1BD1BDFB0E200375DF5 /* CoreTelephony.framework */; };
+		B6DEB1C01BDFB0F300375DF5 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B6DEB1BF1BDFB0F300375DF5 /* SystemConfiguration.framework */; };
+		B6DEB1C41BDFB18000375DF5 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B6DEB1C31BDFB18000375DF5 /* AVFoundation.framework */; };
+		B6DEB1C61BDFB1A300375DF5 /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B6DEB1C51BDFB1A300375DF5 /* MediaPlayer.framework */; };
+		B6DEB1C81BDFB2CA00375DF5 /* BmobSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B6DEB1C71BDFB2CA00375DF5 /* BmobSDK.framework */; settings = {ASSET_TAGS = (); }; };
+		B6DEB1C91BDFB30900375DF5 /* libz.1.2.5.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = B6DEB1C11BDFB12C00375DF5 /* libz.1.2.5.tbd */; };
+		B6DEB1CB1BDFB31900375DF5 /* libicucore.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = B6DEB1CA1BDFB31900375DF5 /* libicucore.tbd */; };
+		B6DEB1CD1BDFB32A00375DF5 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = B6DEB1CC1BDFB32A00375DF5 /* libsqlite3.tbd */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,6 +46,19 @@
 		153F3C151BD3EDA700C86F1A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		153F3C181BD3EDA700C86F1A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		153F3C1A1BD3EDA700C86F1A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B6DEB1B31BDFAFEE00375DF5 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		B6DEB1B51BDFB00700375DF5 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		B6DEB1B71BDFB01500375DF5 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		B6DEB1B91BDFB0C100375DF5 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		B6DEB1BB1BDFB0D000375DF5 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		B6DEB1BD1BDFB0E200375DF5 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		B6DEB1BF1BDFB0F300375DF5 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		B6DEB1C11BDFB12C00375DF5 /* libz.1.2.5.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.1.2.5.tbd; path = usr/lib/libz.1.2.5.tbd; sourceTree = SDKROOT; };
+		B6DEB1C31BDFB18000375DF5 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		B6DEB1C51BDFB1A300375DF5 /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		B6DEB1C71BDFB2CA00375DF5 /* BmobSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = BmobSDK.framework; path = ../../../../Downloads/Bmob_SDK_iOS_v1.6.5/BmobSDK.framework; sourceTree = "<group>"; };
+		B6DEB1CA1BDFB31900375DF5 /* libicucore.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libicucore.tbd; path = usr/lib/libicucore.tbd; sourceTree = SDKROOT; };
+		B6DEB1CC1BDFB32A00375DF5 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +66,19 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B6DEB1CD1BDFB32A00375DF5 /* libsqlite3.tbd in Frameworks */,
+				B6DEB1CB1BDFB31900375DF5 /* libicucore.tbd in Frameworks */,
+				B6DEB1C91BDFB30900375DF5 /* libz.1.2.5.tbd in Frameworks */,
+				B6DEB1C61BDFB1A300375DF5 /* MediaPlayer.framework in Frameworks */,
+				B6DEB1C41BDFB18000375DF5 /* AVFoundation.framework in Frameworks */,
+				B6DEB1C01BDFB0F300375DF5 /* SystemConfiguration.framework in Frameworks */,
+				B6DEB1BE1BDFB0E200375DF5 /* CoreTelephony.framework in Frameworks */,
+				B6DEB1BC1BDFB0D000375DF5 /* CFNetwork.framework in Frameworks */,
+				B6DEB1BA1BDFB0C100375DF5 /* MobileCoreServices.framework in Frameworks */,
+				B6DEB1B81BDFB01500375DF5 /* CoreGraphics.framework in Frameworks */,
+				B6DEB1B61BDFB00700375DF5 /* Security.framework in Frameworks */,
+				B6DEB1B41BDFAFEE00375DF5 /* CoreLocation.framework in Frameworks */,
+				B6DEB1C81BDFB2CA00375DF5 /* BmobSDK.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,6 +109,19 @@
 			children = (
 				153F3C081BD3EDA700C86F1A /* PetShare */,
 				153F3C071BD3EDA700C86F1A /* Products */,
+				B6DEB1CC1BDFB32A00375DF5 /* libsqlite3.tbd */,
+				B6DEB1CA1BDFB31900375DF5 /* libicucore.tbd */,
+				B6DEB1C71BDFB2CA00375DF5 /* BmobSDK.framework */,
+				B6DEB1C51BDFB1A300375DF5 /* MediaPlayer.framework */,
+				B6DEB1C31BDFB18000375DF5 /* AVFoundation.framework */,
+				B6DEB1C11BDFB12C00375DF5 /* libz.1.2.5.tbd */,
+				B6DEB1BF1BDFB0F300375DF5 /* SystemConfiguration.framework */,
+				B6DEB1BD1BDFB0E200375DF5 /* CoreTelephony.framework */,
+				B6DEB1BB1BDFB0D000375DF5 /* CFNetwork.framework */,
+				B6DEB1B91BDFB0C100375DF5 /* MobileCoreServices.framework */,
+				B6DEB1B71BDFB01500375DF5 /* CoreGraphics.framework */,
+				B6DEB1B51BDFB00700375DF5 /* Security.framework */,
+				B6DEB1B31BDFAFEE00375DF5 /* CoreLocation.framework */,
 			);
 			sourceTree = "<group>";
 		};

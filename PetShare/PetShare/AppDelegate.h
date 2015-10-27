@@ -7,11 +7,13 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <BmobSDK/Bmob.h>
+
 
 @interface AppDelegate : UIResponder <UIApplicationDelegate>
 
 @property (strong, nonatomic) UIWindow *window;
 
+- (BOOL)application:(UIApplication *)application;
 
 @end
-
