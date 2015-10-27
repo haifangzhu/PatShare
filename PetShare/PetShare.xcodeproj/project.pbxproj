@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		13DF9A0D1BDE41C800CDDC88 /* BaseTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 13DF9A0C1BDE41C800CDDC88 /* BaseTableViewController.m */; };
 		13DF9A101BDE41E200CDDC88 /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 13DF9A0F1BDE41E200CDDC88 /* BaseViewController.m */; };
+		15055ED31BDFC88E00C5CEF2 /* BmobSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 15055ED21BDFC88E00C5CEF2 /* BmobSDK.framework */; };
 		153F3C0B1BD3EDA700C86F1A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 153F3C0A1BD3EDA700C86F1A /* main.m */; };
 		153F3C0E1BD3EDA700C86F1A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 153F3C0D1BD3EDA700C86F1A /* AppDelegate.m */; };
 		153F3C111BD3EDA700C86F1A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 153F3C101BD3EDA700C86F1A /* ViewController.m */; };
@@ -24,7 +25,6 @@
 		B6DEB1C01BDFB0F300375DF5 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B6DEB1BF1BDFB0F300375DF5 /* SystemConfiguration.framework */; };
 		B6DEB1C41BDFB18000375DF5 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B6DEB1C31BDFB18000375DF5 /* AVFoundation.framework */; };
 		B6DEB1C61BDFB1A300375DF5 /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B6DEB1C51BDFB1A300375DF5 /* MediaPlayer.framework */; };
-		B6DEB1C81BDFB2CA00375DF5 /* BmobSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B6DEB1C71BDFB2CA00375DF5 /* BmobSDK.framework */; settings = {ASSET_TAGS = (); }; };
 		B6DEB1C91BDFB30900375DF5 /* libz.1.2.5.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = B6DEB1C11BDFB12C00375DF5 /* libz.1.2.5.tbd */; };
 		B6DEB1CB1BDFB31900375DF5 /* libicucore.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = B6DEB1CA1BDFB31900375DF5 /* libicucore.tbd */; };
 		B6DEB1CD1BDFB32A00375DF5 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = B6DEB1CC1BDFB32A00375DF5 /* libsqlite3.tbd */; };
@@ -36,6 +36,7 @@
 		13DF9A0E1BDE41E200CDDC88 /* BaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
 		13DF9A0F1BDE41E200CDDC88 /* BaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
 		15055ECC1BDFBF7200C5CEF2 /* Constants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
+		15055ED21BDFC88E00C5CEF2 /* BmobSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = BmobSDK.framework; sourceTree = "<group>"; };
 		153F3C061BD3EDA700C86F1A /* PetShare.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PetShare.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		153F3C0A1BD3EDA700C86F1A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		153F3C0C1BD3EDA700C86F1A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -56,7 +57,6 @@
 		B6DEB1C11BDFB12C00375DF5 /* libz.1.2.5.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.1.2.5.tbd; path = usr/lib/libz.1.2.5.tbd; sourceTree = SDKROOT; };
 		B6DEB1C31BDFB18000375DF5 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		B6DEB1C51BDFB1A300375DF5 /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
-		B6DEB1C71BDFB2CA00375DF5 /* BmobSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = BmobSDK.framework; path = ../../../../Downloads/Bmob_SDK_iOS_v1.6.5/BmobSDK.framework; sourceTree = "<group>"; };
 		B6DEB1CA1BDFB31900375DF5 /* libicucore.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libicucore.tbd; path = usr/lib/libicucore.tbd; sourceTree = SDKROOT; };
 		B6DEB1CC1BDFB32A00375DF5 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
@@ -71,6 +71,7 @@
 				B6DEB1C91BDFB30900375DF5 /* libz.1.2.5.tbd in Frameworks */,
 				B6DEB1C61BDFB1A300375DF5 /* MediaPlayer.framework in Frameworks */,
 				B6DEB1C41BDFB18000375DF5 /* AVFoundation.framework in Frameworks */,
+				15055ED31BDFC88E00C5CEF2 /* BmobSDK.framework in Frameworks */,
 				B6DEB1C01BDFB0F300375DF5 /* SystemConfiguration.framework in Frameworks */,
 				B6DEB1BE1BDFB0E200375DF5 /* CoreTelephony.framework in Frameworks */,
 				B6DEB1BC1BDFB0D000375DF5 /* CFNetwork.framework in Frameworks */,
@@ -78,7 +79,6 @@
 				B6DEB1B81BDFB01500375DF5 /* CoreGraphics.framework in Frameworks */,
 				B6DEB1B61BDFB00700375DF5 /* Security.framework in Frameworks */,
 				B6DEB1B41BDFAFEE00375DF5 /* CoreLocation.framework in Frameworks */,
-				B6DEB1C81BDFB2CA00375DF5 /* BmobSDK.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -104,15 +104,19 @@
 			name = constants;
 			sourceTree = "<group>";
 		};
-		153F3BFD1BD3EDA700C86F1A = {
+		15055ED11BDFC88800C5CEF2 /* ThirdParty */ = {
 			isa = PBXGroup;
 			children = (
-				153F3C081BD3EDA700C86F1A /* PetShare */,
-				153F3C071BD3EDA700C86F1A /* Products */,
+				15055ED21BDFC88E00C5CEF2 /* BmobSDK.framework */,
+			);
+			path = ThirdParty;
+			sourceTree = "<group>";
+		};
+		15055ED41BDFC8B700C5CEF2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
 				B6DEB1CC1BDFB32A00375DF5 /* libsqlite3.tbd */,
 				B6DEB1CA1BDFB31900375DF5 /* libicucore.tbd */,
-				B6DEB1C71BDFB2CA00375DF5 /* BmobSDK.framework */,
-				B6DEB1C51BDFB1A300375DF5 /* MediaPlayer.framework */,
 				B6DEB1C31BDFB18000375DF5 /* AVFoundation.framework */,
 				B6DEB1C11BDFB12C00375DF5 /* libz.1.2.5.tbd */,
 				B6DEB1BF1BDFB0F300375DF5 /* SystemConfiguration.framework */,
@@ -122,6 +126,17 @@
 				B6DEB1B71BDFB01500375DF5 /* CoreGraphics.framework */,
 				B6DEB1B51BDFB00700375DF5 /* Security.framework */,
 				B6DEB1B31BDFAFEE00375DF5 /* CoreLocation.framework */,
+				B6DEB1C51BDFB1A300375DF5 /* MediaPlayer.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		153F3BFD1BD3EDA700C86F1A = {
+			isa = PBXGroup;
+			children = (
+				15055ED41BDFC8B700C5CEF2 /* Frameworks */,
+				153F3C081BD3EDA700C86F1A /* PetShare */,
+				153F3C071BD3EDA700C86F1A /* Products */,
 			);
 			sourceTree = "<group>";
 		};
@@ -136,6 +151,7 @@
 		153F3C081BD3EDA700C86F1A /* PetShare */ = {
 			isa = PBXGroup;
 			children = (
+				15055ED11BDFC88800C5CEF2 /* ThirdParty */,
 				15055ECB1BDFBF5000C5CEF2 /* constants */,
 				13DF9A0A1BDE41AF00CDDC88 /* BaseViewControllers */,
 				153F3C0C1BD3EDA700C86F1A /* AppDelegate.h */,
@@ -343,6 +359,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/PetShare/ThirdParty",
+				);
 				INFOPLIST_FILE = PetShare/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -355,6 +376,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/PetShare/ThirdParty",
+				);
 				INFOPLIST_FILE = PetShare/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
