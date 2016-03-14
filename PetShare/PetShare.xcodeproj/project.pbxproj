@@ -63,7 +63,7 @@
 		B6AC38031C8ED8650049D622 /* registViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = registViewController.h; sourceTree = "<group>"; };
 		B6AC38041C8ED8650049D622 /* registViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = registViewController.m; sourceTree = "<group>"; };
 		B6AC38061C8FEF610049D622 /* findKeyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = findKeyViewController.h; sourceTree = "<group>"; };
-		B6AC38071C8FEF610049D622 /* findKeyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = findKeyViewController.m; sourceTree = "<group>"; };
+		B6AC38071C8FEF610049D622 /* findKeyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = findKeyViewController.m; sourceTree = "<group>"; };
 		B6AC380A1C8FF2D70049D622 /* resetKeyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = resetKeyViewController.h; sourceTree = "<group>"; };
 		B6AC380B1C8FF2D70049D622 /* resetKeyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = resetKeyViewController.m; sourceTree = "<group>"; };
 		B6AC38141C9010950049D622 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -88,6 +88,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B6DEB1C01BDFB0F300375DF5 /* SystemConfiguration.framework in Frameworks */,
+				B6DEB1B41BDFAFEE00375DF5 /* CoreLocation.framework in Frameworks */,
 				B6AC38171C9010A90049D622 /* UIKit.framework in Frameworks */,
 				B6AC38151C9010950049D622 /* Foundation.framework in Frameworks */,
 				B6DEB1CD1BDFB32A00375DF5 /* libsqlite3.tbd in Frameworks */,
@@ -96,13 +98,11 @@
 				B6DEB1C91BDFB30900375DF5 /* libz.1.2.5.tbd in Frameworks */,
 				B6DEB1C61BDFB1A300375DF5 /* MediaPlayer.framework in Frameworks */,
 				B6DEB1C41BDFB18000375DF5 /* AVFoundation.framework in Frameworks */,
-				B6DEB1C01BDFB0F300375DF5 /* SystemConfiguration.framework in Frameworks */,
 				B6DEB1BE1BDFB0E200375DF5 /* CoreTelephony.framework in Frameworks */,
 				B6DEB1BC1BDFB0D000375DF5 /* CFNetwork.framework in Frameworks */,
 				B6DEB1BA1BDFB0C100375DF5 /* MobileCoreServices.framework in Frameworks */,
 				B6DEB1B81BDFB01500375DF5 /* CoreGraphics.framework in Frameworks */,
 				B6DEB1B61BDFB00700375DF5 /* Security.framework in Frameworks */,
-				B6DEB1B41BDFAFEE00375DF5 /* CoreLocation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

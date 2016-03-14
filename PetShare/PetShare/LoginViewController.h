@@ -13,13 +13,8 @@
 @property (weak, nonatomic) IBOutlet UITextField *phoneNumb;
 
 @property (weak, nonatomic) IBOutlet UITextField *userKey;
-
 - (IBAction)loginAction:(id)sender;
-
 - (IBAction)registAction:(id)sender;
-
-- (IBAction)forgetKeyAction:(id)sender;
-
-@property (weak, nonatomic) IBOutlet UIButton *touchLoginButton;
+- (IBAction)findKey:(id)sender;
 
 @end

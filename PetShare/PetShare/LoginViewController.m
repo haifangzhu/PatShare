@@ -39,7 +39,6 @@
 */
 
 
-
 - (IBAction)loginAction:(id)sender {
     if(_phoneNumb.text.length == 0){
         [MBProgressHUD showError:@"请填写电话号码" toView:self.view];
@@ -50,25 +49,31 @@
         return;
     }
     
-/* [BmobUser loginInbackgroundWithAccount:_phoneNumb.text andPassword:_userKey.text block:^(BmobUser *user, NSError *error) {
-    if(user){
-          [MBProgressHUD showSuccess:@"登录成功" toView:self.view];
-       }else{
-           [MBProgressHUD showError:@"登录失败" toView:self.view];
-       }
-   }];
- */
+    /* [BmobUser loginInbackgroundWithAccount:_phoneNumb.text andPassword:_userKey.text block:^(BmobUser *user, NSError *error) {
+     if(user){
+     [MBProgressHUD showSuccess:@"登录成功" toView:self.view];
+     }else{
+     [MBProgressHUD showError:@"登录失败" toView:self.view];
+     }
+     }];
+     */
+    
 }
+
+
 
 - (IBAction)registAction:(id)sender {
     registViewController *regist = [self.storyboard instantiateViewControllerWithIdentifier:@"registViewController"];
     [self.navigationController pushViewController:regist animated:YES];
 }
 
-- (IBAction)forgetKeyAction:(id)sender {
+- (IBAction)findKey:(id)sender {
     findKeyViewController *findKey = [self.storyboard instantiateViewControllerWithIdentifier:@"findLeyViewController"];
     [self.navigationController pushViewController:findKey animated:YES];
-    
+
 }
+
+
+
 
 @end
