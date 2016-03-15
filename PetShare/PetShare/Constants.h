@@ -10,3 +10,7 @@
 
 //  bmob APPID
 #define kBmobApplicationID    @"d66db80976c4d0efab95daa5381398d3"
+
+
+// 是否登录
+#define kHadLogin          @"HadLogin"

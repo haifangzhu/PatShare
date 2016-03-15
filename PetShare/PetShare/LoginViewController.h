@@ -7,8 +7,15 @@
 //
 
 #import "BaseTableViewController.h"
+#import "BaseViewController.h"
 
-@interface LoginViewController : BaseTableViewController
+
+
+#warning 这个地方你有错误 ，之前是 继承自 BaseTableViewController  但是你在storyboard 里面对应的是 ViewController  要注意TableViewController 和ViewController 的区别
+
+@interface LoginViewController : BaseViewController
+
+
 
 @property (weak, nonatomic) IBOutlet UITextField *phoneNumb;
 

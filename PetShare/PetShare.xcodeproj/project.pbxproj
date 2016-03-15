@@ -11,12 +11,12 @@
 		13DF9A101BDE41E200CDDC88 /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 13DF9A0F1BDE41E200CDDC88 /* BaseViewController.m */; };
 		153F3C0B1BD3EDA700C86F1A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 153F3C0A1BD3EDA700C86F1A /* main.m */; };
 		153F3C0E1BD3EDA700C86F1A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 153F3C0D1BD3EDA700C86F1A /* AppDelegate.m */; };
-		153F3C111BD3EDA700C86F1A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 153F3C101BD3EDA700C86F1A /* ViewController.m */; };
 		153F3C141BD3EDA700C86F1A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 153F3C121BD3EDA700C86F1A /* Main.storyboard */; };
 		153F3C161BD3EDA700C86F1A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 153F3C151BD3EDA700C86F1A /* Assets.xcassets */; };
 		153F3C191BD3EDA700C86F1A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 153F3C171BD3EDA700C86F1A /* LaunchScreen.storyboard */; };
 		156D0B9F1C9275EC00116A56 /* MBProgressHUD+Add.m in Sources */ = {isa = PBXBuildFile; fileRef = 156D0B9C1C9275EC00116A56 /* MBProgressHUD+Add.m */; };
 		156D0BA01C9275EC00116A56 /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 156D0B9E1C9275EC00116A56 /* MBProgressHUD.m */; };
+		1588CEF81C97C02100A5CDDE /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1588CEF71C97C02100A5CDDE /* HomeViewController.m */; };
 		B6AC38021C8E74740049D622 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B6AC38011C8E74740049D622 /* LoginViewController.m */; };
 		B6AC38051C8ED8650049D622 /* registViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B6AC38041C8ED8650049D622 /* registViewController.m */; };
 		B6AC38081C8FEF610049D622 /* findKeyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B6AC38071C8FEF610049D622 /* findKeyViewController.m */; };
@@ -48,8 +48,6 @@
 		153F3C0A1BD3EDA700C86F1A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		153F3C0C1BD3EDA700C86F1A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		153F3C0D1BD3EDA700C86F1A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		153F3C0F1BD3EDA700C86F1A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		153F3C101BD3EDA700C86F1A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		153F3C131BD3EDA700C86F1A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		153F3C151BD3EDA700C86F1A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		153F3C181BD3EDA700C86F1A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -58,6 +56,8 @@
 		156D0B9C1C9275EC00116A56 /* MBProgressHUD+Add.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MBProgressHUD+Add.m"; sourceTree = "<group>"; };
 		156D0B9D1C9275EC00116A56 /* MBProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
 		156D0B9E1C9275EC00116A56 /* MBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
+		1588CEF61C97C02100A5CDDE /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		1588CEF71C97C02100A5CDDE /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
 		B6AC38001C8E74740049D622 /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
 		B6AC38011C8E74740049D622 /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
 		B6AC38031C8ED8650049D622 /* registViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = registViewController.h; sourceTree = "<group>"; };
@@ -178,14 +178,13 @@
 		153F3C081BD3EDA700C86F1A /* PetShare */ = {
 			isa = PBXGroup;
 			children = (
+				1588CEF51C97BFF700A5CDDE /* homeViewController */,
 				B6AC37FF1C8E73F70049D622 /* account */,
 				15055ED11BDFC88800C5CEF2 /* ThirdParty */,
 				15055ECB1BDFBF5000C5CEF2 /* constants */,
 				13DF9A0A1BDE41AF00CDDC88 /* BaseViewControllers */,
 				153F3C0C1BD3EDA700C86F1A /* AppDelegate.h */,
 				153F3C0D1BD3EDA700C86F1A /* AppDelegate.m */,
-				153F3C0F1BD3EDA700C86F1A /* ViewController.h */,
-				153F3C101BD3EDA700C86F1A /* ViewController.m */,
 				153F3C121BD3EDA700C86F1A /* Main.storyboard */,
 				153F3C151BD3EDA700C86F1A /* Assets.xcassets */,
 				153F3C171BD3EDA700C86F1A /* LaunchScreen.storyboard */,
@@ -212,6 +211,15 @@
 				156D0B9E1C9275EC00116A56 /* MBProgressHUD.m */,
 			);
 			path = MBProgressHUD;
+			sourceTree = "<group>";
+		};
+		1588CEF51C97BFF700A5CDDE /* homeViewController */ = {
+			isa = PBXGroup;
+			children = (
+				1588CEF61C97C02100A5CDDE /* HomeViewController.h */,
+				1588CEF71C97C02100A5CDDE /* HomeViewController.m */,
+			);
+			name = homeViewController;
 			sourceTree = "<group>";
 		};
 		B6AC37FF1C8E73F70049D622 /* account */ = {
@@ -300,7 +308,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				B6AC38051C8ED8650049D622 /* registViewController.m in Sources */,
-				153F3C111BD3EDA700C86F1A /* ViewController.m in Sources */,
 				13DF9A101BDE41E200CDDC88 /* BaseViewController.m in Sources */,
 				B6AC38081C8FEF610049D622 /* findKeyViewController.m in Sources */,
 				156D0BA01C9275EC00116A56 /* MBProgressHUD.m in Sources */,
@@ -310,6 +317,7 @@
 				156D0B9F1C9275EC00116A56 /* MBProgressHUD+Add.m in Sources */,
 				13DF9A0D1BDE41C800CDDC88 /* BaseTableViewController.m in Sources */,
 				153F3C0B1BD3EDA700C86F1A /* main.m in Sources */,
+				1588CEF81C97C02100A5CDDE /* HomeViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
